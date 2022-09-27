@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- Framework Tailwind -->
+		<script src="https://cdn.tailwindcss.com"></script>
+		<script src="../tailwind.config.cjs"></script>
+
+		<!-- Font -->
+		<style>
+			@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+		</style>
+
+		<title>Assignment 3 Tailwind CSS</title>
+	</head>
+	<body class="box-border font-['Poppins']">
+		<!-- HEADER -->
+		<header class="inline">
+			<div class="flex flex-col-reverse lg:flex-row items-center justify-center bg-slate-700 text-white py-10 px-14 m-auto">
+				<section>
+					<div class="mt-5 lg:w-3/4">
+						<div class="">
+							<img class="inline mb-1" width="14px" src="./assets/icon/home.png" alt="" />
+							<p class="inline-block ml-1 text-xs text-gray-300">Depok, Jawa Barat, 16417</p>
+						</div>
+						<h1 class="text-4xl">Holla,</h1>
+						<h1 class="text-4xl">I'm Rafli Bima Pratandra</h1>
+						<p class="text-sm mt-4 font-sans">I'm 7th Semester Software Engineering Student, willing to learn and able to adapt in a team or individually.</p>
+						<div class="w-fit mt-2">
+							<a class="float-left" target="_blank" href="https://www.linkedin.com/in/rafli-bima-pratandra/"><img src="./assets/icon/linkedin.png" alt="" /></a>
+							<a class="float-right ml-2" target="_blank" href="https://github.com/raflibima25"><img src="./assets/icon/github-sign.png" alt="" /></a>
+						</div>
+					</div>
+				</section>
+				<section>
+					<figure>
+						<img class="w-48 rounded-full" src="./assets/image/cv.jpg" alt="profile picture" />
+					</figure>
+				</section>
+			</div>
+			<nav class="flex justify-center items-center bg-slate-800 h-16 sticky top-0">
+				<div class="w-4/5">
+					<h1 class="float-left font-bold text-slate-200 text-2xl font-mono hidden sm:inline-block">RafBimPra</h1>
+					<ul class="text-center sm:float-right mt-1">
+						<li class="mr-6 inline">
+							<a class="text-slate-400 font-medium hover:text-gray-50" href="#">About Me</a>
+						</li>
+						<li class="mr-6 inline">
+							<a class="text-slate-400 font-medium hover:text-gray-50" href="#">Education</a>
+						</li>
+						<li class="mr-6 inline">
+							<a class="text-slate-400 font-medium hover:text-gray-50" href="#">Contact</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</header>
+
+		<!-- MAIN -->
+		<main class="flex flex-col items-center bg-slate-100">
+			<div class="container w-4/5 p-14 shadow-2xl bg-white mb-10">
+				<section>
+					<h1 class="text-2xl text-center mt-2 font-semibold">About Me</h1>
+					<p class="mt-10">
+						I am flexible, reliable and possess excellent time keeping skills. I am an enthusiastic, self-motivated, reliable, responsible and hard working person. I am a mature team worker and adaptable to all challenging
+						situations. I am able to work well both in a team environment as well as using own initiative.
+					</p>
+					<p class="mt-3">Current activity learn about Front-End Web Development and during college study programming languages ​​such as HTML, CSS, basic Javascript and basic Java.</p>
+				</section>
+
+				<section>
+					<h1 class="text-2xl text-center font-semibold mt-10">Education</h1>
+					<article class="mt-10 grid grid-rows-2 lg:grid-cols-3 lg:grid-rows-none">
+						<div class="m-auto">
+							<figure>
+								<img width="350" src="./assets/image/university.jpg" alt="image kampus" />
+								<figcaption class="text-center mt-2">(2019 - Now)</figcaption>
+							</figure>
+						</div>
+						<div class="lg:col-span-2 lg:ml-10">
+							<h2 class="text-sky-400 text-2xl font-semibold">Universitas Bina Sarana Informatika</h2>
+							<p class="text-justify mt-3">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque labore nulla reiciendis, a ratione voluptates quia ea minus perspiciatis eveniet enim, nam eum consequatur odit aspernatur laboriosam dolorem in
+								repellendus neque ipsa dicta molestias voluptas!
+							</p>
+						</div>
+					</article>
+
+					<article class="mt-6 grid grid-rows-2 lg:grid-cols-3 sm:grid-rows-none">
+						<div class="inline-block mt-5 lg:hidden m-auto">
+							<figure>
+								<img width="350" src="./assets/image/high-school.jpg" alt="smk era" />
+								<figcaption class="text-center mt-2">(2017 - 2019)</figcaption>
+							</figure>
+						</div>
+						<div class="lg:col-span-2 lg:mr-10">
+							<h2 class="text-left lg:text-end text-sky-400 text-2xl font-semibold">SMK Era Pembangunan Umat</h2>
+							<p class="text-justify mt-3">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat quam animi quia expedita dolores, molestiae fugit porro aspernatur nisi exercitationem asperiores inventore cupiditate tenetur voluptatem
+								tempore voluptas voluptatibus similique numquam, nemo velit! Odio in, laborum natus, explicabo.
+							</p>
+						</div>
+						<div class="hidden lg:inline-block m-auto">
+							<figure>
+								<img width="350" src="./assets/image/high-school.jpg" alt="smk era" />
+								<figcaption class="text-center mt-2">(2017 - 2019)</figcaption>
+							</figure>
+						</div>
+					</article>
+
+					<article class="mt-6 grid grid-rows-2 lg:grid-cols-3 sm:grid-rows-none">
+						<div class="m-auto">
+							<figure>
+								<img width="350" src="./assets/image/junior-high-school.jpg" alt="smpn 233" />
+								<figcaption class="text-center mt-2">(2015 - 2017)</figcaption>
+							</figure>
+						</div>
+						<div class="lg:col-span-2 lg:ml-10">
+							<h2 class="text-sky-400 text-2xl font-semibold">SMPN 233</h2>
+							<p class="text-justify mt-3">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, autem a. Inventore, ut beatae voluptas, suscipit ratione iure, similique commodi saepe impedit dolorem omnis ad necessitatibus ea earum
+								magnam illo fugit atque temporibus ab. Veritatis dignissimos, quos quo possimus
+							</p>
+						</div>
+					</article>
+				</section>
+
+				<section>
+					<h2 class="text-2xl text-center mt-10 font-semibold">Contact Me</h2>
+					<div class="flex flex-row mt-10">
+						<div class="hidden sm:hidden lg:inline-block">
+							<figure>
+								<img width="300" src="./assets/image/form-photo.jpg" alt="" />
+							</figure>
+						</div>
+						<form action="contact" class="flex flex-col grow lg:ml-14">
+							<label for="name">Name:</label>
+							<input type="text" class="px-2 py-1 mt-2 mb-5 border-solid border-2 border-emerald-400 rounded focus:outline-none focus:border-emerald-600 focus:ring-1" placeholder="rest ur heart" required />
+							<label for="email">Email:</label>
+							<input type="email" class="px-2 py-1 mt-2 mb-5 border-solid border-2 border-emerald-400 rounded focus:outline-none focus:border-emerald-600 focus:ring-1" placeholder="rest ur brain" required />
+							<label for="message">Message:</label>
+							<textarea
+								name="message"
+								id="message"
+								rows="4"
+								class="px-2 py-1 mt-2 mb-5 border-solid border-2 border-emerald-400 rounded focus:outline-none focus:border-emerald-600 focus:ring-1"
+								placeholder="you can't change what has already happened, so don't waste ur time thinking about it."
+								required
+							></textarea>
+							<input type="submit" value="Submit" class="rounded-full bg-blue-600 hover:bg-sky-800 text-slate-50 m-4 h-10" />
+						</form>
+					</div>
+				</section>
+			</div>
+		</main>
+
+		<!-- FOOTER -->
+		<footer class="bg-gray-800 text-slate-50 text-center p-5">
+			<p>Assignment 3 &#169; 2022, Ruangguru Camp</p>
+		</footer>
+	</body>
+</html>
